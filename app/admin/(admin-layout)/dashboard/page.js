@@ -1,4 +1,4 @@
-import PageContainer from "@/app/admin/_components/PageContainer";
+import PageContainer from "@components/PageContainer";
 
 export default function Dashboard() {
 	return (
