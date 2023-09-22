@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { useState } from "react";
 import {
@@ -26,7 +26,8 @@ export default function AntdContainer({ children }) {
 				<Menu
 					theme="dark"
 					mode="inline"
-					defaultSelectedKeys={["1"]}
+					defaultSelectedKeys={["/admin/dashboard"]}
+					defaultOpenKeys={["/admin/dashboard"]}
 					onClick={({ key }) => {
 						nav.push(key);
 					}}

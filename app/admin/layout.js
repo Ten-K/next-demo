@@ -1,4 +1,4 @@
-import AntdContainer from './_components/AntdContainer'
+import AntdContainer from 'components/AntdContainer'
 
 export default function AdminLayout({children}) {
   return (
