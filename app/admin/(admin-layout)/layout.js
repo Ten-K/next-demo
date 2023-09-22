@@ -1,4 +1,4 @@
-import AntAdmin from "@/app/admin/components/AntdContainer";
+import AntAdmin from "@/app/admin/components/AntAdmin";
 
 export default function AdminLayout({ children }) {
 	return <AntAdmin>{children}</AntAdmin>;
