@@ -12,7 +12,7 @@ import { Layout, Menu, Button, theme } from "antd";
 
 const { Header, Sider, Content } = Layout;
 
-export default function AntdContainer({ children }) {
+export default function AntAdmin({ children }) {
 	const [collapsed, setCollapsed] = useState(false);
 	const {
 		token: { colorBgContainer }

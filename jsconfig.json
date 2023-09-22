@@ -1,10 +1,10 @@
 {
 	"compilerOptions": {
-    "baseUrl": "./",
+		"baseUrl": "./",
 		"paths": {
 			"@/*": ["./*"],
 			"admin/*": ["./app/admin/*"],
-			"components/*": ["./app/admin/components/*"]
+			"components/*": ["app/admin/_components/*"]
 		}
 	}
 }
