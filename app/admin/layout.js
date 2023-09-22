@@ -1,7 +1,5 @@
-import AntdContainer from 'components/AntdContainer'
+import AntdContainer from "@/app/admin/components/AntdContainer";
 
-export default function AdminLayout({children}) {
-  return (
-    <AntdContainer>{children}</AntdContainer>
-  )
+export default function AdminLayout({ children }) {
+	return <AntdContainer>{children}</AntdContainer>;
 }
