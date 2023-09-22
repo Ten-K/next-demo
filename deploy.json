@@ -1,0 +1,16 @@
+/* 本地使用PM2部署
+ *   1. 安装pm2：npm i pm2 -g
+ *   2. 运行命令：pm2 start deploy.json
+ */
+
+{
+	"apps": [
+		{
+			"name": "Project_name",
+			"script": "./node_modules/next/dist/bin/next",
+			"env": {
+				"PORT": "5454"
+			}
+		}
+	]
+}
