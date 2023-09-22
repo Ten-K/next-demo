@@ -4,7 +4,7 @@
 		"paths": {
 			"@/*": ["./*"],
 			"admin/*": ["./app/admin/*"],
-			"components/*": ["app/admin/components/*"]
+			"components/*": ["./app/admin/components/*"]
 		}
 	}
 }
